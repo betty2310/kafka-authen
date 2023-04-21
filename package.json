@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "tsc && node dist/index.js"
+    "start_producer": "tsc && node dist/index.js producer",
+    "start_consumer": "tsc && node dist/index.js consumer"
   },
   "keywords": [],
   "author": "",
